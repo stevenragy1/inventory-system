@@ -32,6 +32,9 @@ inventory-system/
 | react-chartjs-2 / Chart.js | 5.2.0 / 4.4.4 | Charts |
 | react-router-dom | 6.26.0 | Pages and navigation |
 | Vitest, Testing Library | 2.1.1, 16.0.1 | Frontend tests |
+| Plus Jakarta Sans | Google Fonts | Typeface from the Figma design, loaded in `index.html` |
+
+The visual theme is in `frontend/src/theme.css`. See `07-ui-design.md`.
 
 ## Running the project
 

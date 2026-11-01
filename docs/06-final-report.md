@@ -37,7 +37,7 @@
 | Task completion | All five steps and four key features are built and tested |
 | Code quality | Layered backend (routes, services, repositories); components and helpers kept apart; each rule in one place |
 | Website responsiveness | Bootstrap grid; checked at 375, 768, and 1280 px |
-| User interface design | Consistent navigation, status badges with text as well as colour, clear warning and confirmation dialogs |
+| User interface design | Figma design applied as a theme (`docs/07-ui-design.md`); consistent navigation; status badges with text as well as colour; clear warning and confirmation dialogs |
 | Creativity and implementation | Charts, a slow-movers analysis, and negative-level alerts with a correction action |
 | Professional presentation | This documentation set, a README, and a demo script |
 | Project functionality | Seed data shows every feature on first run |
@@ -73,6 +73,9 @@
 - One currency, stored as whole cents.
 - Dates use UTC, so for a few hours after midnight in Cairo, "today" in reports is still the previous day.
 - Turnover covers the window the user chooses; the dashboard uses the last 30 days.
+- The visual theme matches the Figma colours, font, and shadows. Layouts and spacing follow the Figma frames' structure, not their exact positions, and no icons are shown, because the Figma icon files could not be downloaded.
+- The Figma file has phone frames only for the Dashboard and Items pages. Stock updates, Search, and Reports have no phone frames yet, so their phone layouts follow the responsive grid instead.
+- The Reports frame uses a deeper teal accent than the rest of the app. The app uses the brighter teal everywhere, for consistency.
 - Transfers between locations are recorded as two movements (an issue and a receipt), not as one action.
 - The turnover table scrolls sideways on phones rather than turning into cards.
 - No automated browser tests; responsive checks were manual.
